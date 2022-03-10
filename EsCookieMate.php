@@ -30,8 +30,8 @@ $indice = 0;
 for ($i = 0; $i<count($array); $i++) { 
 $numero = $numero + $array[$i];
 }
-echo "somma": $numero;
-echo "media":($numero)/count($array);
+echo "somma:" $numero;
+echo "media:"($numero)/count($array);
 }
 if(!empty($_POST['a'])){
     $name= "numero"; 
