@@ -1,11 +1,11 @@
 <?php
-echo ('<form action = "index.php" method = "POST">
+echo ('<form action = "Cookie.php" method = "POST">
 <p></p>login: <br>
 <input type = "text" name = "login"> </p>
 <p></p>password:<br>
 <input type = "text" name = "psw"></p>
-</p>
-<input type = "submit" name = "setCookie" value = "setta cookie"
+</p>    
+<input type = "submit" name = "setCookie" value = "setta cookie">
 </form>');
 
 if(!empty($_POST)){
